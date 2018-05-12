@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="La27Barberia.Views.Home"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:La27Barberia.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Styles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Page.Resources>
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="Auto" Height="Auto" Padding="50" CornerRadius="10">
+            <StackPanel.Background>
+                <SolidColorBrush Color="LightGray" Opacity="0.5"></SolidColorBrush>
+            </StackPanel.Background>
+            <TextBlock TextAlignment="Center" FontSize="64">Bienvenido a</TextBlock>
+            <TextBlock TextAlignment="Center" FontSize="64">La 27 Barbershop &amp; Beauty</TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>
